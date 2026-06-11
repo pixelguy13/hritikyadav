@@ -6,11 +6,9 @@ import { useTheme } from "@/lib/theme";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#what", label: "What I Do" },
   { href: "#mat", label: "MAT Class" },
   { href: "#youtube", label: "YouTube" },
-  { href: "#services", label: "Services" },
-  { href: "#gallery", label: "Gallery" },
+  { href: "#links", label: "Links" },
   { href: "#contact", label: "Contact" },
 ];
 
