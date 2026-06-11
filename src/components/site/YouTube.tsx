@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Youtube, ExternalLink } from "lucide-react";
 
 const videos = [
-  { id: "dQw4w9WgXcQ", title: "A day in my MBBS life at KUSMS" },
-  { id: "dQw4w9WgXcQ", title: "How I cracked the medical entrance exam" },
-  { id: "dQw4w9WgXcQ", title: "My honest first year of medical college" },
+  { id: "HwCd10MEv-Q", title: "A day as MBBS Student in KUSMS" },
+  { id: "1OEDclG1Wh4", title: "How to prepare for CEE?" },
+  { id: "Y6353IbAdm0", title: "First Love: A Short Film" },
 ];
 
 export function YouTube() {
