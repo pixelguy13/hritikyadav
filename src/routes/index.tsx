@@ -1,29 +1,76 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { About } from "@/components/site/About";
+import { WhatIDo } from "@/components/site/WhatIDo";
+import { MatClass } from "@/components/site/MatClass";
+import { YouTube } from "@/components/site/YouTube";
+import { Services } from "@/components/site/Services";
+import { Achievements } from "@/components/site/Achievements";
+import { Gallery } from "@/components/site/Gallery";
+import { Blog } from "@/components/site/Blog";
+import { FAQ } from "@/components/site/FAQ";
+import { Newsletter } from "@/components/site/Newsletter";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import { BackToTop } from "@/components/site/BackToTop";
+import { ThemeProvider } from "@/lib/theme";
+import { useReveal } from "@/lib/use-reveal";
+import { Toaster } from "@/components/ui/sonner";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Hritik Yadav — MBBS Student, Educator & Creator" },
+      {
+        name: "description",
+        content:
+          "Personal brand of Hritik Yadav — MBBS student at KUSMS, founder of MAT Class, and creator helping future doctors crack medical entrance exams.",
+      },
+      { property: "og:title", content: "Hritik Yadav — MBBS Student, Educator & Creator" },
+      {
+        property: "og:description",
+        content:
+          "Mentorship, MBBS vlogs, study strategies, and MAT Class by Hritik — built for future doctors.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <ThemeProvider>
+      <Page />
+    </ThemeProvider>
+  );
+}
+
+function Page() {
+  useReveal();
+  return (
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <WhatIDo />
+        <MatClass />
+        <YouTube />
+        <Services />
+        <Achievements />
+        <Gallery />
+        <Blog />
+        <FAQ />
+        <Newsletter />
+        <Contact />
+      </main>
+      <Footer />
+      <BackToTop />
+      <Toaster richColors position="top-center" />
     </div>
   );
 }
