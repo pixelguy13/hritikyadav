@@ -2,15 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
-import { WhatIDo } from "@/components/site/WhatIDo";
 import { MatClass } from "@/components/site/MatClass";
 import { YouTube } from "@/components/site/YouTube";
-import { Services } from "@/components/site/Services";
-import { Achievements } from "@/components/site/Achievements";
-import { Gallery } from "@/components/site/Gallery";
-import { Blog } from "@/components/site/Blog";
-import { FAQ } from "@/components/site/FAQ";
-import { Newsletter } from "@/components/site/Newsletter";
+import { LinksHub } from "@/components/site/LinksHub";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { BackToTop } from "@/components/site/BackToTop";
@@ -57,15 +51,9 @@ function Page() {
       <main>
         <Hero />
         <About />
-        <WhatIDo />
         <MatClass />
         <YouTube />
-        <Services />
-        <Achievements />
-        <Gallery />
-        <Blog />
-        <FAQ />
-        <Newsletter />
+        <LinksHub />
         <Contact />
       </main>
       <Footer />
