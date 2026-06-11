@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Play, GraduationCap, MessageCircle, Sparkles } from "lucide-react";
-import portrait from "@/assets/hritik-portrait.jpg";
+import portraitAsset from "@/assets/hritik-portrait.jpg.asset.json";
 import heroBg from "@/assets/hero-bg.jpg";
+
+const portrait = portraitAsset.url;
 
 export function Hero() {
   return (

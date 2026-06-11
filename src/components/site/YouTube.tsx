@@ -26,7 +26,7 @@ export function YouTube() {
             size="lg"
             className="gradient-brand text-primary-foreground border-0 rounded-xl shadow-glow hover:opacity-90 w-fit"
           >
-            <a href="https://youtube.com" target="_blank" rel="noreferrer">
+            <a href="https://www.youtube.com/@hritikyadav13" target="_blank" rel="noreferrer">
               <Youtube className="h-4 w-4" />
               Visit Channel
               <ExternalLink className="h-3.5 w-3.5" />

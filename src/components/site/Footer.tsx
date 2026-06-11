@@ -1,11 +1,9 @@
-import { Youtube, Instagram, Facebook, Linkedin, Music2, Stethoscope } from "lucide-react";
+import { Youtube, Instagram, Facebook, Stethoscope } from "lucide-react";
 
 const socials = [
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
+  { icon: Youtube, href: "https://www.youtube.com/@hritikyadav13", label: "YouTube" },
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Music2, href: "https://tiktok.com", label: "TikTok" },
   { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
 ];
 
 export function Footer() {
@@ -57,7 +55,7 @@ export function Footer() {
             <p className="font-display font-semibold mb-3">Get in touch</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>WhatsApp: +977 9842612207</li>
-              <li>Email: hello@hritikyadav.com</li>
+              <li>Email: hritiky13@gmail.com</li>
               <li>KUSMS, Nepal</li>
             </ul>
           </div>

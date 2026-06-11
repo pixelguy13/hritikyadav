@@ -1,16 +1,12 @@
-import { Youtube, Instagram, Facebook, Linkedin, Music2, MessageCircle, Mail, GraduationCap, BookOpen, Image as ImageIcon } from "lucide-react";
+import { Youtube, Instagram, Facebook, MessageCircle, Mail, GraduationCap } from "lucide-react";
 
 const links = [
-  { icon: Youtube, label: "YouTube Channel", href: "https://youtube.com/@hritikyadav", desc: "Vlogs, study tips & MBBS life" },
+  { icon: Youtube, label: "YouTube Channel", href: "https://www.youtube.com/@hritikyadav13", desc: "@hritikyadav13" },
   { icon: GraduationCap, label: "MAT Class by Hritik", href: "#mat", desc: "Entrance prep program" },
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/hritikyadav", desc: "Daily stories & reels" },
-  { icon: Music2, label: "TikTok", href: "https://tiktok.com/@hritikyadav", desc: "Short medical content" },
-  { icon: Facebook, label: "Facebook", href: "https://facebook.com/hritikyadav", desc: "Community & updates" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/hritikyadav", desc: "Professional network" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/", desc: "Daily stories & reels" },
+  { icon: Facebook, label: "Facebook", href: "https://facebook.com/", desc: "Community & updates" },
   { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/9779842612207", desc: "+977 9842612207" },
-  { icon: Mail, label: "Email", href: "mailto:hello@hritikyadav.com", desc: "hello@hritikyadav.com" },
-  { icon: BookOpen, label: "Blog & Notes", href: "#contact", desc: "Coming soon" },
-  { icon: ImageIcon, label: "Gallery", href: "https://instagram.com/hritikyadav", desc: "Photos & moments" },
+  { icon: Mail, label: "Email", href: "mailto:hritiky13@gmail.com", desc: "hritiky13@gmail.com" },
 ];
 
 export function LinksHub() {

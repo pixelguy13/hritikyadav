@@ -37,8 +37,8 @@ export function Contact() {
                   <p className="font-display font-semibold">+977 9842612207</p>
                 </span>
               </a>
-              <a
-                href="mailto:hello@hritikyadav.com"
+                <a
+                href="mailto:hritiky13@gmail.com"
                 className="flex items-center gap-4 glass rounded-2xl p-4 shadow-card-soft hover:-translate-y-0.5 transition-transform"
               >
                 <span className="grid h-12 w-12 place-items-center rounded-xl gradient-brand shadow-glow">
@@ -46,7 +46,7 @@ export function Contact() {
                 </span>
                 <span>
                   <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="font-display font-semibold">hello@hritikyadav.com</p>
+                  <p className="font-display font-semibold">hritiky13@gmail.com</p>
                 </span>
               </a>
               <div className="flex items-center gap-4 glass rounded-2xl p-4 shadow-card-soft">
