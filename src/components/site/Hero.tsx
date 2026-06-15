@@ -40,9 +40,9 @@ export function Hero() {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-              MBBS student at <strong className="text-foreground">Kathmandu University School of Medical Sciences</strong>,
-              founder of <strong className="text-foreground">MAT Class by Hritik</strong>, and a creator helping future
-              doctors succeed while documenting my MBBS journey.
+              <strong className="text-foreground">3rd year MBBS student</strong> at Kathmandu University
+              School of Medical Sciences, founder of <strong className="text-foreground">MAT Class by Hritik</strong>,
+              and a creator helping future doctors succeed while documenting my MBBS journey.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -77,7 +77,7 @@ export function Hero() {
 
             <dl className="grid grid-cols-3 gap-6 pt-6 max-w-md">
               {[
-                { k: "MBBS", v: "Year of growth" },
+                { k: "3rd Yr", v: "MBBS · KUSMS" },
                 { k: "1000+", v: "Students mentored" },
                 { k: "100%", v: "Honest journey" },
               ].map((s) => (
