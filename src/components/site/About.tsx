@@ -1,12 +1,9 @@
-import { GraduationCap, Award, Users, Compass, Heart, Mic } from "lucide-react";
+import { GraduationCap, Users, Mic } from "lucide-react";
 
 const chips = [
-  { icon: GraduationCap, label: "MBBS @ KUSMS" },
+  { icon: GraduationCap, label: "3rd Year MBBS @ KUSMS" },
   { icon: Mic, label: "Medical Educator" },
   { icon: Users, label: "Content Creator" },
-  { icon: Award, label: "Former Prefect" },
-  { icon: Compass, label: "Ex-Scout Troop Leader" },
-  { icon: Heart, label: "Ex-Rotaract Member" },
 ];
 
 export function About() {
@@ -20,8 +17,9 @@ export function About() {
               A medical student on a <span className="gradient-text">mission to mentor</span>.
             </h2>
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-              I'm pursuing my MBBS at Kathmandu University School of Medical Sciences, and along the way
-              I create content, teach entrance aspirants, and share the real story of medical college life.
+              I'm a <strong className="text-foreground">3rd year MBBS student</strong> at Kathmandu University
+              School of Medical Sciences, and along the way I create content, teach entrance aspirants, and
+              share the real story of medical college life.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               My goal is simple — help students crack medical entrance exams with clarity, strategy, and
@@ -29,7 +27,7 @@ export function About() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
             {chips.map((c) => (
               <div
                 key={c.label}

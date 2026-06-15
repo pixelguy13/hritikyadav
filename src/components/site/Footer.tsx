@@ -2,8 +2,8 @@ import { Youtube, Instagram, Facebook, Stethoscope } from "lucide-react";
 
 const socials = [
   { icon: Youtube, href: "https://www.youtube.com/@hritikyadav13", label: "YouTube" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+  { icon: Instagram, href: "https://instagram.com/_hritikyadav_/", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/hreet.eek", label: "Facebook" },
 ];
 
 export function Footer() {
@@ -21,8 +21,8 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 text-muted-foreground max-w-md">
-              Helping future doctors succeed while documenting my MBBS journey at Kathmandu University
-              School of Medical Sciences.
+              3rd year MBBS student at Kathmandu University School of Medical Sciences — helping future
+              doctors succeed while documenting the journey.
             </p>
             <div className="mt-5 flex gap-2">
               {socials.map((s) => (
@@ -44,10 +44,10 @@ export function Footer() {
             <p className="font-display font-semibold mb-3">Explore</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#about" className="hover:text-foreground">About</a></li>
-              <li><a href="#what" className="hover:text-foreground">What I Do</a></li>
               <li><a href="#mat" className="hover:text-foreground">MAT Class</a></li>
               <li><a href="#youtube" className="hover:text-foreground">YouTube</a></li>
-              <li><a href="#gallery" className="hover:text-foreground">Gallery</a></li>
+              <li><a href="#links" className="hover:text-foreground">Links</a></li>
+              <li><a href="#contact" className="hover:text-foreground">Contact</a></li>
             </ul>
           </div>
 
@@ -56,7 +56,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>WhatsApp: +977 9842612207</li>
               <li>Email: hritiky13@gmail.com</li>
-              <li>KUSMS, Nepal</li>
+              <li>Dhulikhel, Nepal</li>
             </ul>
           </div>
         </div>
